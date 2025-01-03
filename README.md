@@ -1,4 +1,4 @@
-# project
+# Project: Blog website on firebase
 
 ## Project setup
 ```
