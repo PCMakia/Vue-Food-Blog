@@ -26,34 +26,38 @@ npm run build
 ## Database format
 # foods
 - Recipe ID
-  - description: <string>
-  - image: </pics/picture.png> <string>
+  - name: "Recipe name or title" (string)
+  - series: "type of cuisine, choose one of the four (american/european/asian/african)" (string)
+  - type: "meal type, choose one of the four (breakfast/lunch/dinner/dessert)" (string)
+  - description: (string)
+  - image: "/pics/picture.png" (string)
   - ingredient (map):
     - part1 (array):
-      - "Name of dish 1" <string>
-      - "ingredient of dish 1" <string>
+      - "Name of dish 1" (string)
+      - "ingredient of dish 1" (string)
       - ...
     - part2 (array):
-      - "Name of dish 2 or side dish" <string>
-      - "ingredient of dish 2" <string>
+      - "Name of dish 2 or side dish" (string)
+      - "ingredient of dish 2" (string)
       - ...
   - instructions (map):
     - part1 (array):
-      - "Name of dish 1" <string>
-      - "line of instruction for dish 1" <string>
+      - "Name of dish 1" (string)
+      - "line of instruction for dish 1" (string)
       - ...
     - part2 (array):
-      - "Name of dish 2 or side dish" <string>
-      - "line of instruction for dish 2" <string>
+      - "Name of dish 2 or side dish" (string)
+      - "line of instruction for dish 2" (string)
       - ...
-    - name: "Recipe name or title" <string>
-    - series: "type of cuisine, choose one of the four (american/european/asian/african)" <string>
-    - type: "meal type, choose one of the four (breakfast/lunch/dinner/dessert)" <string>
+
 
 * Note: series and type affect the sorting function and filter function when user search for recipes in categories.
 
 * Example:
 - 10
+  - name: "Thanksgiving-Style Roasted Turkey" (string)
+  - series: "american" (string)
+  - type: "dinner" (string)
   - description: "A comforting dinner featuring roasted turkey, mashed potatoes, gravy, green beans, and cranberry sauce." (string)
   - image: "/pics/american3.jpg" (string)
   - ingredient (map):
@@ -80,27 +84,25 @@ npm run build
       - 1: "Boil peeled potatoes until tender. Mash with milk, butter, salt, and pepper." (string)
     - part3 (array):
       - ...
-  - name: "Thanksgiving-Style Roasted Turkey" (string)
-  - series: "american" (string)
-  - type: "dinner" (string)
+
  
 # users
 - User ID
-  - email: <string>
-  - password: <string>
+  - email: (string)
+  - password: (string)
 
 * Example: 
 - T7SeJl578FQg6X0a7jVn
-  - email: "pippa@gmail.com" <string>
-  - password: "1111" <string>
+  - email: "pepper@gmail.com" (string)
+  - password: "1111" (string)
   
 # subscribers
 - Subcriber ID
-  - email: <string>
+  - email: (string)
 
 * Example:
 - XrchcuW8g86IGBmHdw0E
-  - email: "divert@gmail.com" <string>   
+  - email: "divert@gmail.com" (string)   
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
