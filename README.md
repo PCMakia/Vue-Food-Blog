@@ -1,2 +1,19 @@
-# Vue-Online-Blog
-A Blog site in Vue Structure for CSC340 at DePauw University
+# project
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
