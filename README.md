@@ -22,6 +22,9 @@ npm run serve
 ```
 npm run build
 ```
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
+
 
 ## Database format
 # foods
@@ -104,5 +107,4 @@ npm run build
 - XrchcuW8g86IGBmHdw0E
   - email: "divert@gmail.com" (string)   
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
